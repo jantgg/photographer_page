@@ -5,25 +5,32 @@
 .section-1 {
   height: 100vh;
   width: 100%;
-  background-color: #fc9797;
+  background-color: #070707;
 }
 
 .section-2 {
   height: 100vh;
   width: 100%;
-  background-color: #3d6660;
+  background-image: url("https://res.cloudinary.com/dsbp8pqdb/image/upload/v1680013076/pexels-eberhard-grossgasteiger-2098428_nizlf1.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: grayscale(70%);
 }
 
 .section-3 {
   height: 100vh;
   width: 100%;
-  background-color: #59165f;
+  background-image: url("https://res.cloudinary.com/dsbp8pqdb/image/upload/v1680020371/pexels-pixabay-158163_1_hdd6pg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .indicators {
   position: fixed;
   right: 0;
-  top: 45%;
+  top: 40%;
   z-index: 999;
 }
 .indicator {
@@ -32,9 +39,95 @@
   background-color: transparent;
   border: none;
   font-size: 1.3vw;
+  font-weight: bold;
 }
 
 .selected {
   transform: scale(1.2);
   opacity: 1;
+}
+body {
+  font-family: "Space Grotesk", sans-serif;
+}
+.centro-texto {
+  text-align: center;
+}
+.slider-size {
+  height: 100%;
+  width: 100%;
+}
+.slider-size-inside {
+  height: 100vh;
+  width: 100%;
+}
+.img-nat {
+  background-image: url("https://res.cloudinary.com/dsbp8pqdb/image/upload/v1680000755/pexels-eberhard-grossgasteiger-1428277_o6feyl.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.img-city {
+  background-image: url("https://res.cloudinary.com/dsbp8pqdb/image/upload/v1680013617/pexels-brayden-law-2096700_hfq4xw.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.img-por {
+  background-image: url("https://res.cloudinary.com/dsbp8pqdb/image/upload/v1680001067/pexels-leah-kelley-5091121_xcgcpa.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.navbars {
+  position: fixed;
+  margin-top: 7vh;
+  z-index: 999;
+  opacity: 1 !important;
+  color: rgb(255, 255, 255);
+  /* background: linear-gradient(
+    to right,
+    transparent 0%,
+    transparent 30%,
+    #000000 50%,
+    transparent 70%,
+    transparent 100%
+  );*/
+}
+.borde {
+  border: 2px #ff0000;
+}
+.black {
+  color: rgb(255, 255, 255);
+  font-size: 2vw;
+}
+.right-button {
+  position: relative;
+  width: 2vw;
+  opacity: 1 !important;
+}
+.left-button {
+  position: relative;
+  width: 2vw;
+  opacity: 1 !important;
+}
+.ptop {
+  margin-top: 43vh;
+}
+.titles {
+  font-size: 4vw;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+.translucid {
+  background-color: rgba(0, 0, 0, 0.377);
+}
+.text-white {
+  color: solid white;
+}
+.name-size {
+  font-size: 2.3vw;
 }

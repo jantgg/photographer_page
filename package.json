@@ -79,6 +79,8 @@
     "react-icons": "^4.8.0",
     "react-polyfills": "0.0.1",
     "react-router-dom": "^6.3.0",
-    "react-scroll": "^1.8.9"
+    "react-scroll": "^1.8.9",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
   }
 }

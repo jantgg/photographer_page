@@ -1,0 +1,105 @@
+.fondo {
+  margin-top: 17%;
+  background-color: black;
+  height: 30vh;
+}
+
+.card-service {
+  background: rgb(40, 40, 55);
+  background: linear-gradient(
+    344deg,
+    rgba(40, 40, 55, 1) 0%,
+    rgba(16, 16, 18, 1) 50%
+  );
+  box-shadow: 4px 6px 14px #000000bd;
+  border-radius: 3px;
+  color: #f9f9f9;
+  padding: 16px;
+  transition: all 0.3s;
+}
+
+.card-service:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5);
+}
+
+.card-service2 {
+  background: rgb(40, 40, 55);
+  background: linear-gradient(
+    344deg,
+    rgba(40, 40, 55, 1) 0%,
+    rgba(16, 16, 18, 1) 50%
+  );
+  box-shadow: 4px 6px 14px #000000bd;
+  border-radius: 3px;
+  color: #f9f9f9;
+  padding: 16px;
+  transition: all 0.3s;
+}
+
+.card-service2:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5);
+}
+
+.card-service3 {
+  background: rgb(40, 40, 55);
+  background: linear-gradient(
+    344deg,
+    rgba(40, 40, 55, 1) 0%,
+    rgba(16, 16, 18, 1) 50%
+  );
+  box-shadow: 4px 6px 14px #000000bd;
+  border-radius: 3px;
+  color: #f9f9f9;
+  padding: 16px;
+  transition: all 0.3s;
+}
+
+.card-service3:hover {
+  transform: scale(1.2);
+  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5);
+}
+.borderb {
+  border-bottom: 2px solid white;
+}
+
+.buttonc {
+  font-size: 18px;
+  color: #e1e1e1;
+  font-family: inherit;
+  font-weight: 800;
+  cursor: pointer;
+  position: relative;
+  border: none;
+  background: none;
+  text-transform: uppercase;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: color;
+}
+
+.buttonc:focus,
+.buttonc:hover {
+  color: #fff;
+}
+
+.buttonc:focus:after,
+.buttonc:hover:after {
+  width: 100%;
+  left: 0%;
+}
+
+.buttonc:after {
+  content: "";
+  pointer-events: none;
+  bottom: -2px;
+  left: 50%;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #fff;
+  transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+  transition-duration: 400ms;
+  transition-property: width, left;
+}
