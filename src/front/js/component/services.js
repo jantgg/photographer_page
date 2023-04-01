@@ -10,9 +10,13 @@ const Services = ({ data, groupSize }) => {
 
   return (
     <div className="d-flex flex-column img-fondo">
-      <div className="d-flex justify-content-center ">
+      <div
+        className={`d-flex justify-content-center ${
+          store.roll === 2 ? "slide-in-blurred-left" : null
+        }`}
+      >
         {" "}
-        <div className="col-2 mx-4 fondo card-service d-flex flex-column centro-texto">
+        <div className="col-2 mx-4 fondo card-service2 d-flex flex-column centro-texto">
           <h1 className="mt-2">Landscape</h1>
           <div className="borderb col-6 mx-auto my-4 mb-5"></div>
           <p className="">

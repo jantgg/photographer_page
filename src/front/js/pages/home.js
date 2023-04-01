@@ -6,6 +6,7 @@ import { FaCircle } from "react-icons/fa";
 import SimpleSlider from "../component/slider.js";
 import SliderH from "../component/sliderh.js";
 import Services from "../component/services.js";
+import Form from "../component/form.js";
 // import "~slick-carousel/slick/slick.css";
 // import "~slick-carousel/slick/slick-theme.css";
 
@@ -26,10 +27,13 @@ export const Home = () => {
 
       if (div1Pos.top >= 0 && div1Pos.bottom <= windowHeight) {
         setActiveSection(1);
+        actions.setRoll(1);
       } else if (div2Pos.top >= 0 && div2Pos.bottom <= windowHeight) {
         setActiveSection(2);
+        actions.setRoll(2);
       } else if (div3Pos.top >= 0 && div3Pos.bottom <= windowHeight) {
         setActiveSection(3);
+        actions.setRoll(3);
       }
     }
   }, []);
@@ -70,6 +74,7 @@ export const Home = () => {
       element.scrollIntoView();
     }
     setActiveSection(1);
+    actions.setRoll(1);
   };
   const handleClickScroll2 = () => {
     const element = document.getElementById("section-2");
@@ -77,6 +82,7 @@ export const Home = () => {
       element.scrollIntoView();
     }
     setActiveSection(2);
+    actions.setRoll(2);
   };
 
   const handleClickScroll3 = () => {
@@ -85,6 +91,7 @@ export const Home = () => {
       element.scrollIntoView();
     }
     setActiveSection(3);
+    actions.setRoll(3);
   };
 
   return (
@@ -124,7 +131,9 @@ export const Home = () => {
       <div ref={div2Ref} id="section-2" className="section-2">
         <Services />
       </div>
-      <div ref={div3Ref} id="section-3" className="section-3"></div>
+      <div ref={div3Ref} id="section-3" className="section-3">
+        <Form />
+      </div>
       <div ref={div4Ref} id="section-4" className="section-4"></div>
     </div>
   );

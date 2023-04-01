@@ -38,7 +38,11 @@ const SilderH = ({ data, groupSize }) => {
         <h1 className="navbars col-12 name-size"> JantGG Photographer</h1>
         <div className="carousel-item active  img-nat centro-texto">
           {" "}
-          <div className="row justify-content-center ptop">
+          <div
+            className={`row justify-content-center ptop ${
+              store.roll === 1 ? "slide-in-top" : null
+            }`}
+          >
             <button
               className="carousel-control-prev black left-button "
               type="button"
@@ -50,7 +54,9 @@ const SilderH = ({ data, groupSize }) => {
               </span>
               <span className="visually-hidden">Previous</span>
             </button>
-            <h1 className=" titles col-3">Landscape</h1>
+            <h1 className={` titles col-3 ${store.roll === 1 ? "" : null}`}>
+              Landscape
+            </h1>
             <button
               className="carousel-control-next black right-button "
               type="button"
@@ -65,7 +71,11 @@ const SilderH = ({ data, groupSize }) => {
           </div>
         </div>
         <div className="carousel-item img-city centro-texto">
-          <div className="row justify-content-center ptop ">
+          <div
+            className={`row justify-content-center ptop ${
+              store.roll === 1 ? "slide-in-top" : null
+            }`}
+          >
             <button
               className="carousel-control-prev black left-button "
               type="button"
@@ -92,7 +102,11 @@ const SilderH = ({ data, groupSize }) => {
           </div>
         </div>
         <div className="carousel-item img-por centro-texto">
-          <div className="row justify-content-center ptop ">
+          <div
+            className={`row justify-content-center ptop ${
+              store.roll === 1 ? "slide-in-top" : null
+            }`}
+          >
             <button
               className="carousel-control-prev black left-button "
               type="button"
