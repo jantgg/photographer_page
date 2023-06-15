@@ -2,10 +2,14 @@ import React, { useState, useContext } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { Context } from "../store/appContext";
 import "../../styles/home.css";
+import Photos1 from "../component/photos1.js";
+import Photos2 from "../component/photos2.js";
+import Photos3 from "../component/photos3.js";
 
 const SilderH = ({ data, groupSize }) => {
   const Navigate = useNavigate();
   const { store, actions } = useContext(Context);
+  const isDesktop = window.innerWidth >= 1000;
 
   return (
     <div
@@ -35,8 +39,10 @@ const SilderH = ({ data, groupSize }) => {
         ></button>
       </div> */}
       <div className="carousel-inner ">
-        <h1 className="navbars col-12 name-size"> JantGG Photographer</h1>
-        <div className="carousel-item active  img-nat centro-texto">
+        <h1 className= {`navbars col-12 name-size ${isDesktop ? '' : ''}`} >
+       
+           JantGG Photographer</h1>
+        <div className="carousel-item active img-nat centro-texto">
           {" "}
           <div
             className={`row justify-content-center ptop ${
@@ -54,7 +60,7 @@ const SilderH = ({ data, groupSize }) => {
               </span>
               <span className="visually-hidden">Previous</span>
             </button>
-            <h1 className={` titles col-3 ${store.roll === 1 ? "" : null}`}>
+            <h1 className={` titles pointer ${isDesktop ? "col-3" : " col-6"} ${store.roll === 1 ? "" : null}`}>
               Landscape
             </h1>
             <button
@@ -87,7 +93,7 @@ const SilderH = ({ data, groupSize }) => {
               </span>
               <span className="visually-hidden">Previous</span>
             </button>
-            <h1 className=" titles col-3">City</h1>
+            <h1 className={` titles pointer ${isDesktop ? "col-3" : " col-6"}`}>City</h1>
             <button
               className="carousel-control-next black right-button "
               type="button"
@@ -118,7 +124,7 @@ const SilderH = ({ data, groupSize }) => {
               </span>
               <span className="visually-hidden">Previous</span>
             </button>
-            <h1 className=" titles col-3">Portrait</h1>
+            <h1 className={` titles pointer ${isDesktop ? "col-3" : " col-6"}`}>Portrait</h1>
             <button
               className="carousel-control-next black right-button "
               type="button"

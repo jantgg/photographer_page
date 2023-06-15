@@ -11,11 +11,11 @@
 .section-2 {
   height: 100vh;
   width: 100%;
-  background-image: url("https://res.cloudinary.com/dsbp8pqdb/image/upload/v1680022873/pexels-matheus-bertelli-1144687_tucemk.jpg");
+  background-image: url("https://res.cloudinary.com/dsbp8pqdb/image/upload/v1686848392/pexels-andr%C3%A9-ulysses-de-salis-3727271_ljh2cw.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: grayscale(20%);
+  filter: grayscale(70%);
 }
 
 .section-3 {
@@ -33,6 +33,7 @@
   top: 40%;
   z-index: 999;
 }
+
 .indicator {
   transition: transform 0.2s;
   opacity: 0.7;
@@ -61,7 +62,7 @@ body {
   width: 100%;
 }
 .img-nat {
-  background-image: url("https://res.cloudinary.com/dsbp8pqdb/image/upload/v1680000755/pexels-eberhard-grossgasteiger-1428277_o6feyl.jpg");
+  background-image: url("https://res.cloudinary.com/dsbp8pqdb/image/upload/v1686848392/pexels-andr%C3%A9-ulysses-de-salis-3727271_ljh2cw.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -81,7 +82,19 @@ body {
   background-repeat: no-repeat;
   height: 100vh;
 }
-
+.background-linear{
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    transparent 5%,
+    #000000a8 50%,
+    transparent 95%,
+    transparent 100%
+  );
+}
+.w100{
+width: 100%;
+}
 .navbars {
   position: fixed;
   margin-top: 7vh;
@@ -96,7 +109,9 @@ body {
     transparent 70%,
     transparent 100%
   );*/
+
 }
+
 .borde {
   border: 2px #ff0000;
 }
@@ -131,8 +146,157 @@ body {
 .name-size {
   font-size: 2.3vw;
 }
+.hola{
+  width: 100%;
+}
+.pointer{
+  cursor: pointer;
+}
+@media (max-width: 1000px) {
+  /* Cambia el tamaño de letra cuando la pantalla es más pequeña que 600px */
+  .name-size {
+    font-size: 4vw; /* Puedes ajustar el tamaño de letra según tus necesidades */
+  }
+  .indicator {
+    transition: transform 0.2s;
+    opacity: 0.7;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 3vw !important;
+  }
+  .indicators {
+    position: fixed;
+    z-index: 999;
+    margin-bottom: 5vh;
+    margin-top: 1vh;
+  right: 0;
+  top: 90%;
+  }
+  .selected {
+  transform: scale(1.2);
+  opacity: 1;
+}
+.navbars {
+  position: fixed;
+  margin-top: 3vh;
+  z-index: 999;
+  opacity: 1 !important;
+  color: rgb(255, 255, 255);
+  /* background: linear-gradient(
+    to right,
+    transparent 0%,
+    transparent 30%,
+    #000000 50%,
+    transparent 70%,
+    transparent 100%
+  );*/
 
-/* ANIMATIONS */
+}
+.titles {
+  font-size: 3vw !important;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+}
+@media (max-width: 700px) {
+  /* Cambia el tamaño de letra cuando la pantalla es más pequeña que 600px */
+  .name-size {
+    font-size: 6vw; /* Puedes ajustar el tamaño de letra según tus necesidades */
+  }
+  .indicator {
+    transition: transform 0.2s;
+    opacity: 0.7;
+    background-color: transparent;
+    border: none;
+    font-weight: bold;
+    font-size: 4.5vw !important;
+  }
+  .indicators {
+    position: fixed;
+    z-index: 999;
+    margin-bottom: 5vh;
+    margin-top: 1vh;
+    right: 0;
+    top: 90%;
+
+  }
+  .selected {
+  transform: scale(1.2);
+  opacity: 1;
+}
+.navbars {
+  position: fixed;
+  margin-top: 3vh;
+  z-index: 999;
+  opacity: 1 !important;
+  color: rgb(255, 255, 255);
+  /* background: linear-gradient(
+    to right,
+    transparent 0%,
+    transparent 30%,
+    #000000 50%,
+    transparent 70%,
+    transparent 100%
+  );*/
+
+}
+.titles {
+  font-size: 4.5vw !important;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+}
+
+/* PHOTOS --------------------------------------------------------------------------------------------------------------------------------*/
+.margen-sup{
+  margin-top: 12.5vh;
+}
+.photos-h{
+ height: 80vh;
+}
+.h100{
+  height: 100%;
+}
+.h70{
+  height: 70%;
+}
+.h30{
+  height: 30%;
+}
+.h50{
+  height: 50%;
+}
+.h95{
+  height: 95%;
+}
+.w47{
+  width:47%
+}
+.w48{
+  width:49%
+}
+.w50{
+  width:50%
+}
+.h35{
+  height: 35%;
+}
+.h60{
+  height: 60%;
+}
+.h20{
+  height: 20%;
+}
+.w94{
+  width: 93%;
+}
+.w99{
+  width: 99%
+}
+
+
+/* ANIMATIONS -------------------------------------------------------------------------------------------------------------------------*/
 .slide-in-top {
   -webkit-animation: slide-in-top 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
   animation: slide-in-top 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;

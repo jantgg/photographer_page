@@ -17,6 +17,7 @@ export const Home = () => {
   const div2Ref = useRef(null);
   const div3Ref = useRef(null);
   const div4Ref = useRef(null);
+  const isDesktop = window.innerWidth >= 1000;
 
   useEffect(() => {
     function handleScroll() {
@@ -96,31 +97,31 @@ export const Home = () => {
 
   return (
     <div onWheel={handleWheelScroll} className="d-flex flex-column home ">
-      <div className="d-flex flex-column  indicators me-5 text-white">
+      <div className={`d-flex indicators ${isDesktop ? 'me-5 flex-column' : 'me-1 justify-content-evenly w100 '} text-white`}>
         {" "}
         <button
-          className={`btn-scroll indicator text-white py-2 ${
-            activeSection === 1 ? "selected" : ""
-          }`}
+          className={`btn-scroll indicator text-white py-2 
+          ${isDesktop ? '' : 'col-4'}
+          ${activeSection === 1 ? "selected" : ""}`}
           onClick={handleClickScroll1}
         >
-          {activeSection === 1 ? <div>My work</div> : <div>My work</div>}
+       <div className="hola">My work</div>
         </button>
         <button
-          className={`btn-scroll indicator text-white py-2 ${
+          className={`btn-scroll indicator text-white py-2   ${isDesktop ? '' : 'col-4'} ${
             activeSection === 2 ? "selected" : ""
           }`}
           onClick={handleClickScroll2}
         >
-          {activeSection === 2 ? <div>Services</div> : <div>Services</div>}
+        <div>About</div>
         </button>
         <button
-          className={`btn-scroll indicator text-white py-2 ${
+          className={`btn-scroll indicator text-white py-2  ${isDesktop ? '' : 'col-4'} ${
             activeSection === 3 ? "selected" : ""
           }`}
           onClick={handleClickScroll3}
         >
-          {activeSection === 3 ? <div>Contact</div> : <div>Contact</div>}
+      <div>Contact</div>
         </button>
       </div>
       <div ref={div1Ref} id="section-1" className="section-1">

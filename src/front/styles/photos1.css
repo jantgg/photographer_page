@@ -1,0 +1,19 @@
+.containerphoto {
+  overflow: hidden; /* Oculta el contenido que se desborde del contenedor */
+}
+
+.land-1 {
+  height: 100%;
+  width: 100%;
+  background-image: url("https://res.cloudinary.com/dsbp8pqdb/image/upload/v1686848392/pexels-andr%C3%A9-ulysses-de-salis-3727271_ljh2cw.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+  transform-origin: center; /* Establecemos el punto de origen en el centro */
+  cursor: pointer;
+}
+
+.land-1:hover {
+  transform: scale(1.1); /* Hacemos un zoom de 10% en la imagen */
+}
