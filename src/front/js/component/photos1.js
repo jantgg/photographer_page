@@ -8,10 +8,62 @@ const Photos1 = () => {
   const { store, actions } = useContext(Context);
 
   return (
-  <div className="col-10 bg-black">
+    <div className="d-flex flex-column">
+    <div className="col-10 p-2 mx-auto margen-sup photos-h bg-black d-flex ">
+      <div className="col-3 d-flex flex-column h100">
+        <div className="col-12 d-flex h30 ">
+          <div className="col-12 mx-auto d-flex justify-content-between">
+            <div className="col-6 containerphoto"><div className=" land-1"></div></div>
+            <div className="col-6 containerphoto"><div className=" land-1"></div></div>
+          </div>
+
+        </div>
+        <div className=" col-12 d-flex flex-column h35">
+          <div className="col-12 h100 my-auto mx-auto containerphoto"><div className=" land-1"></div></div></div>
+        <div className=" col-12 d-flex flex-column h35">
+          <div className="col-12 h100 my-auto mx-auto containerphoto"><div className=" land-1"></div></div>
+        </div>
+      </div>
+
+      <div className="col-6 d-flex flex-column h100">
+
+        <div className=" col-12 d-flex flex-column h50">
+          <div className="col-12 h100 my-auto mx-auto containerphoto">
+            <div className=" land-1"></div>
+          </div>
+        </div>
+        <div className="col-12 d-flex h50 ">
+          <div className="col-12 mx-auto d-flex">
+            <div className="col-6 h100 my-auto containerphoto"><div className=" land-1"></div></div>
+            <div className="col-6 h100 my-auto containerphoto"><div className=" land-1"></div></div>
+          </div>
+
+        </div>
 
 
-hello
+      </div>
+
+      <div className="col-3 d-flex flex-column h100">
+      <div className="col-12 d-flex h30 ">
+        <div className="col-12 h100 mb-auto mx-auto containerphoto">
+            <div className=" land-1"></div>
+          </div></div>
+        <div className="col-12 d-flex h40 ">
+          <div className="col-6 mx-auto d-flex ">
+            <div className="col-12 h100 mx-auto my-auto containerphoto"><div className=" land-1"></div></div>
+          </div>
+          <div className="col-6 mx-auto d-flex ">
+            <div className="col-12 h100 mx-auto my-auto containerphoto"><div className=" land-1"></div></div>
+          </div>
+        </div>
+        <div className="col-12 d-flex h30 "><div className="col-12 h100 mb-auto mx-auto containerphoto">
+            <div className=" land-1"></div>
+          </div></div>
+
+
+      </div>
+
+    </div>
   </div>
     );
 };

@@ -8,13 +8,18 @@ import Photos3 from "../component/photos3.js";
 
 const SilderH = ({ data, groupSize }) => {
   const Navigate = useNavigate();
-  const { store, actions } = useContext(Context);
   const isDesktop = window.innerWidth >= 1000;
+
+
+
+
 
   return (
     <div
       id="carouselExampleIndicators"
-      className="carousel slide slider-size-inside centro-texto"
+
+
+      className= {`carousel slide slider-size-inside centro-texto padre`}
     >
       {/* <div className="carousel-indicators black">
         <button
@@ -40,14 +45,13 @@ const SilderH = ({ data, groupSize }) => {
       </div> */}
       <div className="carousel-inner ">
         <h1 className= {`navbars col-12 name-size ${isDesktop ? '' : ''}`} >
-       
            JantGG Photographer</h1>
-        <div className="carousel-item active img-nat centro-texto">
+        <div
+        className= {`carousel-item active centro-texto img-nat`}
+        >
           {" "}
           <div
-            className={`row justify-content-center ptop ${
-              store.roll === 1 ? "slide-in-top" : null
-            }`}
+            className={`row justify-content-center ptop`}
           >
             <button
               className="carousel-control-prev black left-button "
@@ -56,11 +60,11 @@ const SilderH = ({ data, groupSize }) => {
               data-bs-slide="prev"
             >
               <span className="black" aria-hidden="true">
-                <i class="fa-solid fa-chevron-left"></i>
+                <i className="fa-solid fa-chevron-left"></i>
               </span>
               <span className="visually-hidden">Previous</span>
             </button>
-            <h1 className={` titles pointer ${isDesktop ? "col-3" : " col-6"} ${store.roll === 1 ? "" : null}`}>
+            <h1 className={` titles pointer ${isDesktop ? "col-3" : " col-6"} `} >
               Landscape
             </h1>
             <button
@@ -70,17 +74,15 @@ const SilderH = ({ data, groupSize }) => {
               data-bs-slide="next"
             >
               <span className="black " aria-hidden="true">
-                <i class="fa-solid fa-chevron-right"></i>
+                <i className="fa-solid fa-chevron-right"></i>
               </span>
               <span className="visually-hidden">Next</span>
             </button>
           </div>
         </div>
-        <div className="carousel-item img-city centro-texto">
+        <div className= {`carousel-item centro-texto img-city `} >
           <div
-            className={`row justify-content-center ptop ${
-              store.roll === 1 ? "slide-in-top" : null
-            }`}
+            className={`row justify-content-center ptop `}
           >
             <button
               className="carousel-control-prev black left-button "
@@ -89,11 +91,11 @@ const SilderH = ({ data, groupSize }) => {
               data-bs-slide="prev"
             >
               <span className="black" aria-hidden="true">
-                <i class="fa-solid fa-chevron-left"></i>
+                <i className="fa-solid fa-chevron-left"></i>
               </span>
               <span className="visually-hidden">Previous</span>
             </button>
-            <h1 className={` titles pointer ${isDesktop ? "col-3" : " col-6"}`}>City</h1>
+            <h1 className={` titles pointer ${isDesktop ? "col-3" : " col-6"}`} >City</h1>
             <button
               className="carousel-control-next black right-button "
               type="button"
@@ -101,17 +103,15 @@ const SilderH = ({ data, groupSize }) => {
               data-bs-slide="next"
             >
               <span className="black " aria-hidden="true">
-                <i class="fa-solid fa-chevron-right"></i>
+                <i className="fa-solid fa-chevron-right"></i>
               </span>
               <span className="visually-hidden">Next</span>
             </button>
           </div>
         </div>
-        <div className="carousel-item img-por centro-texto">
+        <div  className= {`carousel-item centro-texto img-por `} >
           <div
-            className={`row justify-content-center ptop ${
-              store.roll === 1 ? "slide-in-top" : null
-            }`}
+            className={`row justify-content-center ptop`}
           >
             <button
               className="carousel-control-prev black left-button "
@@ -120,11 +120,11 @@ const SilderH = ({ data, groupSize }) => {
               data-bs-slide="prev"
             >
               <span className="black" aria-hidden="true">
-                <i class="fa-solid fa-chevron-left"></i>
+                <i className="fa-solid fa-chevron-left"></i>
               </span>
               <span className="visually-hidden">Previous</span>
             </button>
-            <h1 className={` titles pointer ${isDesktop ? "col-3" : " col-6"}`}>Portrait</h1>
+            <h1 className={` titles pointer ${isDesktop ? "col-3" : " col-6"}`} >Portrait</h1>
             <button
               className="carousel-control-next black right-button "
               type="button"
@@ -132,7 +132,7 @@ const SilderH = ({ data, groupSize }) => {
               data-bs-slide="next"
             >
               <span className="black " aria-hidden="true">
-                <i class="fa-solid fa-chevron-right"></i>
+                <i className="fa-solid fa-chevron-right"></i>
               </span>
               <span className="visually-hidden">Next</span>
             </button>

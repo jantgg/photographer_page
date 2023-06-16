@@ -15,8 +15,8 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: grayscale(70%);
 }
+
 
 .section-3 {
   height: 100vh;
@@ -61,27 +61,84 @@ body {
   height: 100vh;
   width: 100%;
 }
+
+.padre {
+  position: relative;
+}
+
+.padre::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Cambia el valor del último parámetro para ajustar la opacidad */
+}
+
+
+
 .img-nat {
+  position: relative;
   background-image: url("https://res.cloudinary.com/dsbp8pqdb/image/upload/v1686848392/pexels-andr%C3%A9-ulysses-de-salis-3727271_ljh2cw.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
 }
+
+.img-nat.show-before::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+
 .img-city {
+  position: relative;
   background-image: url("https://res.cloudinary.com/dsbp8pqdb/image/upload/v1680013617/pexels-brayden-law-2096700_hfq4xw.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
 }
+.img-city.show-before::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
 .img-por {
+  position: relative;
   background-image: url("https://res.cloudinary.com/dsbp8pqdb/image/upload/v1680001067/pexels-leah-kelley-5091121_xcgcpa.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh;
 }
+.img-por.show-before::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+
+
+
 .background-linear{
   background: linear-gradient(
     to right,
@@ -93,7 +150,10 @@ body {
   );
 }
 .w100{
-width: 100%;
+  width: 100%;
+}
+.h100{
+  height: 100%;
 }
 .navbars {
   position: fixed;
@@ -152,7 +212,7 @@ width: 100%;
 .pointer{
   cursor: pointer;
 }
-@media (max-width: 1000px) {
+@media (max-width: 1400px) {
   /* Cambia el tamaño de letra cuando la pantalla es más pequeña que 600px */
   .name-size {
     font-size: 4vw; /* Puedes ajustar el tamaño de letra según tus necesidades */
@@ -250,10 +310,10 @@ width: 100%;
 
 /* PHOTOS --------------------------------------------------------------------------------------------------------------------------------*/
 .margen-sup{
-  margin-top: 12.5vh;
+  margin-top: 18.5vh;
 }
 .photos-h{
- height: 80vh;
+ height: 70vh;
 }
 .h100{
   height: 100%;
@@ -267,20 +327,17 @@ width: 100%;
 .h50{
   height: 50%;
 }
-.h95{
-  height: 95%;
-}
-.w47{
-  width:47%
-}
-.w48{
-  width:49%
-}
 .w50{
   width:50%
 }
 .h35{
   height: 35%;
+}
+.h30{
+  height: 30%;
+}
+.h40{
+  height: 40%;
 }
 .h60{
   height: 60%;
@@ -288,13 +345,6 @@ width: 100%;
 .h20{
   height: 20%;
 }
-.w94{
-  width: 93%;
-}
-.w99{
-  width: 99%
-}
-
 
 /* ANIMATIONS -------------------------------------------------------------------------------------------------------------------------*/
 .slide-in-top {

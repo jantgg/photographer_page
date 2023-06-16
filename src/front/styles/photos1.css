@@ -1,5 +1,6 @@
 .containerphoto {
   overflow: hidden; /* Oculta el contenido que se desborde del contenedor */
+  padding: 4px;
 }
 
 .land-1 {
@@ -12,8 +13,10 @@
   transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
   transform-origin: center; /* Establecemos el punto de origen en el centro */
   cursor: pointer;
+  filter: grayscale(0%);
 }
 
 .land-1:hover {
-  transform: scale(1.1); /* Hacemos un zoom de 10% en la imagen */
+  transform: scale(1.01); /* Hacemos un zoom de 10% en la imagen */
 }
+

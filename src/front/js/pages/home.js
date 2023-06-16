@@ -17,7 +17,7 @@ export const Home = () => {
   const div2Ref = useRef(null);
   const div3Ref = useRef(null);
   const div4Ref = useRef(null);
-  const isDesktop = window.innerWidth >= 1000;
+  const isDesktop = window.innerWidth >= 1400;
 
   useEffect(() => {
     function handleScroll() {
