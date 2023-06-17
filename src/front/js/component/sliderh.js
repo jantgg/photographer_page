@@ -8,8 +8,18 @@ import Photos3 from "../component/photos3.js";
 
 const SilderH = ({ data, groupSize }) => {
   const Navigate = useNavigate();
+  const { store, actions } = useContext(Context); 
   const isDesktop = window.innerWidth >= 1000;
 
+  const handleClick1 =()=>{
+    actions.setVisible1()
+  }
+  const handleClick2 =()=>{
+    actions.setVisible2()
+  }
+  const handleClick3 =()=>{
+    actions.setVisible3()
+  }
 
 
 
@@ -17,8 +27,6 @@ const SilderH = ({ data, groupSize }) => {
   return (
     <div
       id="carouselExampleIndicators"
-
-
       className= {`carousel slide slider-size-inside centro-texto padre`}
     >
       {/* <div className="carousel-indicators black">
@@ -47,12 +55,13 @@ const SilderH = ({ data, groupSize }) => {
         <h1 className= {`navbars col-12 name-size ${isDesktop ? '' : ''}`} >
            JantGG Photographer</h1>
         <div
-        className= {`carousel-item active centro-texto img-nat`}
+        className= {`carousel-item active centro-texto img-nat `}
         >
           {" "}
           <div
-            className={`row justify-content-center ptop`}
+            className={`ptop d-flex`}
           >
+          <div className={`row justify-content-center col-12`}>
             <button
               className="carousel-control-prev black left-button "
               type="button"
@@ -64,7 +73,7 @@ const SilderH = ({ data, groupSize }) => {
               </span>
               <span className="visually-hidden">Previous</span>
             </button>
-            <h1 className={` titles pointer ${isDesktop ? "col-3" : " col-6"} `} >
+            <h1 className={` titles pointer ${isDesktop ? "col-3" : " col-6"} `} onClick={handleClick1}>
               Landscape
             </h1>
             <button
@@ -79,11 +88,14 @@ const SilderH = ({ data, groupSize }) => {
               <span className="visually-hidden">Next</span>
             </button>
           </div>
+          {store.visible1 && <Photos1 />}
+          </div>
         </div>
         <div className= {`carousel-item centro-texto img-city `} >
-          <div
-            className={`row justify-content-center ptop `}
+        <div
+            className={`ptop d-flex`}
           >
+          <div className={`row justify-content-center col-12 `}>
             <button
               className="carousel-control-prev black left-button "
               type="button"
@@ -95,7 +107,7 @@ const SilderH = ({ data, groupSize }) => {
               </span>
               <span className="visually-hidden">Previous</span>
             </button>
-            <h1 className={` titles pointer ${isDesktop ? "col-3" : " col-6"}`} >City</h1>
+            <h1 className={` titles pointer ${isDesktop ? "col-3" : " col-6"}` } onClick={handleClick2}>City</h1>
             <button
               className="carousel-control-next black right-button "
               type="button"
@@ -108,10 +120,13 @@ const SilderH = ({ data, groupSize }) => {
               <span className="visually-hidden">Next</span>
             </button>
           </div>
+          {store.visible2 && <Photos2 />}
+          </div>
         </div>
         <div  className= {`carousel-item centro-texto img-por `} >
+          <div className={`ptop d-flex`}>
           <div
-            className={`row justify-content-center ptop`}
+            className={`row justify-content-center col-12`}
           >
             <button
               className="carousel-control-prev black left-button "
@@ -124,7 +139,7 @@ const SilderH = ({ data, groupSize }) => {
               </span>
               <span className="visually-hidden">Previous</span>
             </button>
-            <h1 className={` titles pointer ${isDesktop ? "col-3" : " col-6"}`} >Portrait</h1>
+            <h1 className={` titles pointer ${isDesktop ? "col-3" : " col-6"}` } onClick={handleClick3}>Portrait</h1>
             <button
               className="carousel-control-next black right-button "
               type="button"
@@ -136,6 +151,8 @@ const SilderH = ({ data, groupSize }) => {
               </span>
               <span className="visually-hidden">Next</span>
             </button>
+          </div>
+          {store.visible3 && <Photos3 />}
           </div>
         </div>
       </div>

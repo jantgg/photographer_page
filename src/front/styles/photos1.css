@@ -1,12 +1,57 @@
 .containerphoto {
   overflow: hidden; /* Oculta el contenido que se desborde del contenedor */
-  padding: 4px;
+  padding: 0.1vh;
+}
+.pad-1{
+  padding: 0.1vh;
+}
+.margen-sup{
+  margin-top: 0;
+}
+
+.fondo-oscuro{
+  background-color: rgba(0, 0, 0, 0.548);
+}
+
+
+.close-icon {
+  position: absolute;
+  top: 0vh;
+  right: 0vh;
+  cursor: pointer;
+  color: #000000;
+  z-index: 99;
+  font-size: 2vh;
+  padding-right: 1vh;
+  padding-left: 1vh;
+  padding-top: 0.3vh;
+  padding-bottom: 0.5vh;
+}
+.close-icon:hover {
+  background-image: linear-gradient(to bottom left, rgb(0, 0, 0), transparent);
+  color: #fdfdfd;
+}
+
+.margen-sup-icon{
+  margin-top: 0;
+}
+
+.absolute-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+.fondo-oscuro{
+  background-color: #00000079;
+  height: 100%;
 }
 
 .land-1 {
   height: 100%;
   width: 100%;
-  background-image: url("https://res.cloudinary.com/dsbp8pqdb/image/upload/v1686848392/pexels-andr%C3%A9-ulysses-de-salis-3727271_ljh2cw.jpg");
+  background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687011798/lands/pexels-ian-beckley-2440021_jh5mya.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -20,3 +65,155 @@
   transform: scale(1.01); /* Hacemos un zoom de 10% en la imagen */
 }
 
+.land-2 {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687011788/lands/pexels-eberhard-grossgasteiger-2310641_amudgt.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+  transform-origin: center; /* Establecemos el punto de origen en el centro */
+  cursor: pointer;
+  filter: grayscale(0%);
+}
+
+.land-2:hover {
+  transform: scale(1.01); /* Hacemos un zoom de 10% en la imagen */
+}
+
+.land-3 {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687011788/lands/pexels-eberhard-grossgasteiger-1366919_hc8j4w.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+  transform-origin: center; /* Establecemos el punto de origen en el centro */
+  cursor: pointer;
+  filter: grayscale(0%);
+}
+
+.land-3:hover {
+  transform: scale(1.01); /* Hacemos un zoom de 10% en la imagen */
+}
+
+.land-4 {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687011797/lands/pexels-eberhard-grossgasteiger-2437291_kooi9v.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+  transform-origin: center; /* Establecemos el punto de origen en el centro */
+  cursor: pointer;
+  filter: grayscale(0%);
+}
+
+.land-4:hover {
+  transform: scale(1.01); /* Hacemos un zoom de 10% en la imagen */
+}
+
+.land-5 {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687011788/lands/pexels-tom%C3%A1%C5%A1-mal%C3%ADk-3022417_h1efyq.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+  transform-origin: center; /* Establecemos el punto de origen en el centro */
+  cursor: pointer;
+  filter: grayscale(0%);
+}
+
+.land-5:hover {
+  transform: scale(1.01); /* Hacemos un zoom de 10% en la imagen */
+}
+
+.land-6 {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687011788/lands/pexels-trace-hudson-2613946_kdxqqx.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+  transform-origin: center; /* Establecemos el punto de origen en el centro */
+  cursor: pointer;
+  filter: grayscale(0%);
+}
+
+.land-6:hover {
+  transform: scale(1.01); /* Hacemos un zoom de 10% en la imagen */
+}
+
+.land-7 {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687011790/lands/pexels-eberhard-grossgasteiger-1287145_uzl8pp.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+  transform-origin: center; /* Establecemos el punto de origen en el centro */
+  cursor: pointer;
+  filter: grayscale(0%);
+}
+
+.land-7:hover {
+  transform: scale(1.01); /* Hacemos un zoom de 10% en la imagen */
+}
+
+.land-8 {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687011791/lands/pexels-tyler-lastovich-808465_b7ve1p.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+  transform-origin: center; /* Establecemos el punto de origen en el centro */
+  cursor: pointer;
+  filter: grayscale(0%);
+}
+
+.land-8:hover {
+  transform: scale(1.01); /* Hacemos un zoom de 10% en la imagen */
+}
+
+.land-9 {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687012356/lands/pexels-aliona-_-pasha-3892172_nsizsy.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+  transform-origin: center; /* Establecemos el punto de origen en el centro */
+  cursor: pointer;
+  filter: grayscale(0%);
+}
+
+.land-9:hover {
+  transform: scale(1.01); /* Hacemos un zoom de 10% en la imagen */
+}
+
+.land-10 {
+  height: 100%;
+  width: 100%;
+  background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687012366/lands/pexels-matthew-montrone-1324803_w00vwf.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+  transform-origin: center; /* Establecemos el punto de origen en el centro */
+  cursor: pointer;
+  filter: grayscale(0%);
+}
+
+.land-10:hover {
+  transform: scale(1.01); /* Hacemos un zoom de 10% en la imagen */
+}

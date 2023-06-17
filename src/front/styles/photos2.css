@@ -1,0 +1,159 @@
+.city-1 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687012982/lands/cities/pexels-aleksandar-pasaric-325185_rbmanq.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+  
+
+  
+  .city-2 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687012978/lands/cities/pexels-deva-darshan-1123972_ysq8x0.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+
+  
+  .city-3 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687012981/lands/cities/pexels-caner-cankisi-3999943_t4dqnw.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+  
+
+  .city-4 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687012986/lands/cities/pexels-misael-garcia-1707820_ub7tvh.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+  
+
+  .city-5 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687012984/lands/cities/pexels-josh-hild-3573382_zqqpes.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+  
+
+  .city-6 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687012979/lands/cities/pexels-vlad-alexandru-popa-1402790_bytxkm.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+  
+
+  
+  .city-7 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687012979/lands/cities/pexels-pawe%C5%82-l-1121782_fnoe8a.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+  
+
+  
+  .city-8 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687012981/lands/cities/pexels-cameron-casey-1722183_rnxjpp.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+  
+
+  .city-9 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687012981/lands/cities/pexels-ricky-esquivel-1563256_ggxpmm.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+  
+
+  
+  .city-10 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687012366/lands/pexels-matthew-montrone-1324803_w00vwf.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+  
+
+  .city-11 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687012366/lands/pexels-matthew-montrone-1324803_w00vwf.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+  
+
+  

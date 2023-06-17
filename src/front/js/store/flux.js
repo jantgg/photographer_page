@@ -15,6 +15,9 @@ const getState = ({ getStore, getActions, setStore }) => {
         },
       ],
       roll: [],
+      visible1: false,
+      visible2: false,
+      visible3: false,
     },
     actions: {
       // Use getActions to call a function within a fuction
@@ -23,6 +26,18 @@ const getState = ({ getStore, getActions, setStore }) => {
       },
       setRoll: (x) => {
         setStore({ roll: x });
+      },
+      setVisible1: () => {
+        const { visible1 } = getStore();
+        setStore({ visible1: !visible1 });
+      },
+      setVisible2: () => {
+        const { visible2 } = getStore();
+        setStore({ visible2: !visible2 });
+      },
+      setVisible3: () => {
+        const { visible3 } = getStore();
+        setStore({ visible3: !visible3 });
       },
 
       getMessage: async () => {

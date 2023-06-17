@@ -1,0 +1,159 @@
+.port-1 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687014800/lands/cities/portraits/pexels-kevin-kabore-4966973_hfuso3.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+  
+
+  
+  .port-2 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687014799/lands/cities/portraits/pexels-m-y-dogar-4556737_t99yls.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+
+  
+  .port-3 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687014799/lands/cities/portraits/pexels-kyle-woods-4022812_dpzlj4.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+  
+
+  .port-4 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687014797/lands/cities/portraits/pexels-cottonbro-studio-5119214_remlt9.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+  
+
+  .port-5 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687014797/lands/cities/portraits/pexels-anna-tarazevich-4926674_dtvd04.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+  
+
+  .port-6 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687015700/lands/cities/portraits/pexels-kevin-kabore-4966995sfsdfsdfsdf_ppncjm.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+  
+
+  
+  .port-7 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687014799/lands/cities/portraits/pexels-harun-benli%CC%87-4052692_ljinen.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+  
+
+  
+  .port-8 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687014798/lands/cities/portraits/pexels-mateus-souza-3586798_zgjhok.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+  
+
+  .port-9 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687012981/lands/cities/pexels-ricky-esquivel-1563256_ggxpmm.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+  
+
+  
+  .port-10 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687012366/lands/pexels-matthew-montrone-1324803_w00vwf.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+  
+
+  .port-11 {
+    height: 100%;
+    width: 100%;
+    background-image: url('https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687012366/lands/pexels-matthew-montrone-1324803_w00vwf.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
+    transform-origin: center; /* Establecemos el punto de origen en el centro */
+    cursor: pointer;
+    filter: grayscale(0%);
+  }
+  
+
+  
