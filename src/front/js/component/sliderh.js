@@ -53,7 +53,7 @@ const SilderH = ({ data, groupSize }) => {
       </div> */}
       <div className="carousel-inner ">
         <h1 className= {`navbars col-12 name-size ${isDesktop ? '' : ''}`} >
-           JantGG Photographer</h1>
+           JantGG Gallery</h1>
         <div
         className= {`carousel-item active centro-texto img-nat `}
         >

@@ -11,20 +11,44 @@
 .section-2 {
   height: 100vh;
   width: 100%;
-  background-image: url("https://res.cloudinary.com/dsbp8pqdb/image/upload/v1686848392/pexels-andr%C3%A9-ulysses-de-salis-3727271_ljh2cw.jpg");
+  position: relative;
+}
+
+.section-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url("https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687108506/fondos/pexels-ron-lach-10533140_aeakwf.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  filter: saturate(90%) hue-rotate(-15deg) brightness(0.8);
+  z-index: -1;
 }
-
 
 .section-3 {
   height: 100vh;
   width: 100%;
-  background-image: url("https://res.cloudinary.com/dsbp8pqdb/image/upload/v1680020371/pexels-pixabay-158163_1_hdd6pg.jpg");
+  position: relative;
+}
+
+.section-3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("https://res.cloudinary.com/dsbp8pqdb/image/upload/v1687108506/fondos/pexels-ron-lach-10533140_aeakwf.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  filter: saturate(90%) hue-rotate(165deg) brightness(0.8);
+  transform: rotate(180deg) scaleX(-1);
+  z-index: -1;
 }
 
 .indicators {
@@ -319,6 +343,7 @@ body {
 .h100{
   height: 100%;
 }
+
 .h70{
   height: 70%;
 }
@@ -346,6 +371,7 @@ body {
 .h20{
   height: 20%;
 }
+
 
 /* ANIMATIONS -------------------------------------------------------------------------------------------------------------------------*/
 .slide-in-top {

@@ -1,8 +1,79 @@
+.service-top{
+margin-top: 22vh ;
+}
+.serviceh {
+  height: 60vh;
+}
+
+.white{
+  color: white;
+}
+
+.text-size{
+  font-size: 1vw;
+}
+
+@media (max-width: 1400px) {
+  .text-size{
+    font-size: 1.7vw;
+  }
+}
+@media (max-width: 800px) {
+  .text-size{
+    font-size: 2.3vw;
+  }
+}
+
+
+
+.image-container {
+  position: relative;
+
+}
+
+.image-container::before {
+  content: "";
+  position: absolute;
+  top: 2vh;
+  left: -2vh;
+  width: calc(100% - 1vh);
+  height: calc(100% );
+  
+  z-index: -1;
+  border: 4px solid white;
+}
+
+
+
+
+
+
+
+
+
 .fondo {
   margin-top: 17%;
   background-color: black;
   height: 30vh;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .card-service {
   background: rgb(40, 40, 55);

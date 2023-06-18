@@ -91,10 +91,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    transition: transform 0.3s; /* Agregamos una transición suave para el efecto de zoom */
-    transform-origin: center; /* Establecemos el punto de origen en el centro */
     cursor: pointer;
-    filter: grayscale(0%);
   }
   
 
