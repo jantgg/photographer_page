@@ -18,18 +18,18 @@ const Services = ({ data, groupSize }) => {
           <div className="col-8 h100 pe-3 image-container"> <img src={me} alt="Background Image" className="img-style" /></div>
         </div>
         <div className="col-6 d-flex white ps-3">
-          <div className="col-8 "> 
-          <h1 className="name-size">Hi,<br></br>It's Juan Antonio Gomez</h1>
-          <p className="text-size"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a consequat ipsum. Maecenas vel tincidunt sem. 
-            Nam lacinia, arcu sit amet lacinia porta, odio ipsum rhoncus enim, id vestibulum tellus urna eget arcu. 
-            Integer viverra risus tristique mi condimentum sodales. Sed tristique tellus nec neque vehicula, nec sodales risus porttitor. 
-            Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
-            Pellentesque quis turpis at diam vulputate lacinia at egestas turpis. 
-            Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
+          <div className="col-8 ">
+            <h1 className="name-size">Hi,<br></br>It's Juan Antonio Gomez</h1>
+            <p className="text-size h-100"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a consequat ipsum. Maecenas vel tincidunt sem.
+              Nam lacinia, arcu sit amet lacinia porta, odio ipsum rhoncus enim, id vestibulum tellus urna eget arcu.
+              Integer viverra risus tristique mi condimentum sodales. Sed tristique tellus nec neque vehicula, nec sodales risus porttitor.
+              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+              Pellentesque quis turpis at diam vulputate lacinia at egestas turpis.
+              Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae.
             </p>
-          <div></div>
+            <div></div>
           </div>
-         
+
         </div>
 
       </div>

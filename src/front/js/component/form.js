@@ -4,88 +4,95 @@ import { Context } from "../store/appContext";
 import "../../styles/home.css";
 import "../../styles/services.css";
 import "../../styles/form.css";
-import phone from '../images/pexels-chepté-cormani-1416530.jpg';
+import Card from "../component/card.js"; 2
+import Card2 from "../component/card2.js";
+import Card3 from "../component/card3.js";
 
-const Form = ({ data, groupSize }) => {
+const Form = () => {
   const Navigate = useNavigate();
   const { store, actions } = useContext(Context);
 
   return (
     <div className="d-flex">
-      <div className="col-9 serviceh mx-auto form-top d-flex">
-        <div className="col-2"></div>
-        <div className=" col-6 d-flex flex-column">
-          <div className="col-12 mx-auto h70 image-container2 ">
-            <div className=" inside">
-              <h1 className="name-size ps-5 pt-4">We can work together</h1>
-              <p className="text-size ps-5 pt-1">Send an e-mail to: jantgg.works@contact.es
-              </p>
-              <div className="ms-5 mt-4">
-                <a
-                  className="btn btn-outline-light btn-floating mx-2 px-3"
-                  style={{ border: "3px solid white", borderRadius: "0", fontSize: "1.5vw" }}
-                  href="#!"
-                  role="button"
-                >
-                  <i className="fab fa-facebook-f"></i>
-                </a>
+      <div className="col-8 serviceh mx-auto form-top d-flex imgprops">
 
-                <a
-                  className="btn btn-outline-light btn-floating mx-2"
-                  style={{ border: "3px solid white", borderRadius: "0", fontSize: "1.5vw" }}
-                  href="#!"
-                  role="button"
-                >
-                  <i className="fab fa-twitter"></i>
-                </a>
+        <div className="col-2 d-flex flex-column">
 
-                <a
-                  className="btn btn-outline-light btn-floating mx-2"
-                  style={{ border: "3px solid white", borderRadius: "0", fontSize: "1.5vw" }}
-                  href="#!"
-                  role="button"
-                >
-                  <i className="fab fa-google"></i>
-                </a>
+          <a
+            className="btn btn-outline-light btn-floating my-2 col-4 py-1 px-2 bg-icons mx-auto mt-5 px-3"
+            style={{ border: "3px solid white", borderRadius: "2", fontSize: "1.7vw" }}
+            href="#!"
+            role="button"
+          >
+            <i className="fab fa-facebook-f"></i>
+          </a>
 
-                <a
-                  className="btn btn-outline-light btn-floating mx-2"
-                  style={{ border: "3px solid white", borderRadius: "0", fontSize: "1.5vw" }}
-                  href="#!"
-                  role="button"
-                >
-                  <i className="fab fa-instagram"></i>
-                </a>
+          <a
+            className="btn btn-outline-light btn-floating my-2 col-4 py-1 px-2 bg-icons mx-auto"
+            style={{ border: "3px solid white", borderRadius: "2", fontSize: "1.7vw" }}
+            href="#!"
+            role="button"
+          >
+            <i className="fab fa-twitter"></i>
+          </a>
 
-                <a
-                  className="btn btn-outline-light btn-floating mx-2"
-                  style={{ border: "3px solid white", borderRadius: "0", fontSize: "1.5vw" }}
-                  href="#!"
-                  role="button"
-                >
-                  <i className="fab fa-linkedin-in"></i>
-                </a>
+          <a
+            className="btn btn-outline-light btn-floating my-2 col-4 py-1 px-2 bg-icons mx-auto"
+            style={{ border: "3px solid white", borderRadius: "2", fontSize: "1.7vw" }}
+            href="#!"
+            role="button"
+          >
+            <i className="fab fa-google"></i>
+          </a>
 
-                <a
-                  className="btn btn-outline-light btn-floating mx-2"
-                  style={{ border: "3px solid white", borderRadius: "0", fontSize: "1.5vw" }}
-                  href="#!"
-                  role="button"
-                >
-                  <i className="fab fa-github"></i>
-                </a>
-              </div>
+          <a
+            className="btn btn-outline-light btn-floating my-2 col-4 py-1 px-2 bg-icons mx-auto"
+            style={{ border: "3px solid white", borderRadius: "2", fontSize: "1.7vw" }}
+            href="#!"
+            role="button"
+          >
+            <i className="fab fa-instagram"></i>
+          </a>
 
-            </div>
-            <img src={phone} alt="Background Image" className="img-style imgprops" /></div>
-          <div className="col-12 h50 bg-black"> HELOOO</div>
+          <a
+            className="btn btn-outline-light btn-floating my-2 col-4 py-1 px-2 bg-icons mx-auto"
+            style={{ border: "3px solid white", borderRadius: "2", fontSize: "1.7vw" }}
+            href="#!"
+            role="button"
+          >
+            <i className="fab fa-linkedin-in"></i>
+          </a>
+
+          <a
+            className="btn btn-outline-light btn-floating my-2 col-4 py-1 px-2 bg-icons mx-auto"
+            style={{ border: "3px solid white", borderRadius: "2", fontSize: "1.7vw" }}
+            href="#!"
+            role="button"
+          >
+            <i className="fab fa-github"></i>
+          </a>
+
         </div>
+        <div className="col-8">
+          <div className="h-50 pt-5">
+            <div className="white work-size mt-4">Let's work together</div>
+            <div className="white text-size me-3">
+              If you have something specific in mind or would like the input of a professional photographer, I invite you to get in direct contact at +34 688-43-32-12. Feel free to reach out for any inquiries or to discuss your photography needs. I'll be more than happy to assist you.</div>
+
+          </div>
+          <div className="h-50 d-flex">
+            <div className="col-4 mx-3"> <Card /></div>
+            <div className="col-4 mx-3"> <Card2 /></div>
+            <div className="col-4 mx-3"> <Card3 /></div>
+
+          </div>
+        </div>
+        <div className="col-2"></div>
 
 
       </div>
+    </div >
 
-
-    </div>
   );
 };
 
