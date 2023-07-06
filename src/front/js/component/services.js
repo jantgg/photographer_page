@@ -22,7 +22,7 @@ const Services = ({ data, groupSize }) => {
           <div className="col-6 d-flex white ps-3">
             <div className="col-xxl-10 col-12 ">
               <h1 className="service-size">Hi,<br></br>It's Juan Antonio Gomez</h1>
-              <p className="text-size h-100"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a consequat ipsum. Maecenas vel tincidunt sem.
+              <p className="text-size h-100 "> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a consequat ipsum. Maecenas vel tincidunt sem.
                 Nam lacinia, arcu sit amet lacinia porta, odio ipsum rhoncus enim, id vestibulum tellus urna eget arcu.
                 Integer viverra risus tristique mi condimentum sodales. Sed tristique tellus nec neque vehicula, nec sodales risus porttitor.
                 Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
@@ -39,8 +39,8 @@ const Services = ({ data, groupSize }) => {
         <div className="col-11 serviceh mx-auto service-top d-flex">
           <div className="col-12 d-flex white mx-auto  p-2" style={{ border: "2px solid white", borderRadius: "2" }}>
             <div className="col-12" style={{ backgroundImage: `url(${me})`, backgroundSize: 'cover' }}>
-              <div className="image-with-gradient px-5 pt-5 col-12"> <h1 className="name-size">Hi,<br></br>It's Juan Antonio Gomez</h1>
-                <p className="text-size h-100  " style={{ textAlign: 'justify' }}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a consequat ipsum. Maecenas vel tincidunt sem.
+              <div className="image-with-gradient px-5 pt-5 col-12"> <h1 className="name-size text-shadow ">Hi,<br></br>It's Juan Antonio Gomez</h1>
+                <p className="text-size h-100 text-shadow  " style={{ textAlign: 'justify' }}> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a consequat ipsum. Maecenas vel tincidunt sem.
                   Nam lacinia, arcu sit amet lacinia porta, odio ipsum rhoncus enim, id vestibulum tellus urna eget arcu.
                   Integer viverra risus tristique mi condimentum sodales. Sed tristique tellus nec neque vehicula, nec sodales risus porttitor.
                   Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.

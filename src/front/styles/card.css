@@ -1,68 +1,37 @@
 .card {
-  border: 1px solid white;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
-  width: 100%;
-  height: 25vh;
-  padding: 20px 1px;
-  margin: 10px 0;
   text-align: center;
   position: relative;
-  cursor: pointer;
-  border-radius: 2px;
-  background-color: #000000;
-  background: linear-gradient(-10deg, #ff8615ad 0%, #000000 100%);
-  transition: transform 0.2s;
-}
-
-@media (min-width: 1400px) {
-  .card:hover {
-    transform: scale(1.1);
-    z-index: 7;
-  }
+  background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0px 0px 20px rgb(0, 0, 0);
+  border: none;
 }
 
 .card-content {
-  padding: 20px;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
 }
 
 .card-content .price {
   color: white;
   font-weight: 800;
   font-size: 1.7vw;
-  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
 }
 
 .card-content .description {
-  color: rgba(255, 255, 255, 0.6);
+  color: white;
   margin-top: 10px;
   font-size: 0.6vw;
+  text-align: justify;
 }
 
 .card-content .title {
   font-weight: 800;
   text-transform: uppercase;
-  color: rgba(255, 255, 255, 0.64);
+  color: white;
   margin-top: 10px;
-  font-size: 0.9vw;
+  font-size: 1vw;
   letter-spacing: 1px;
-}
-
-.card-button {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-  border: none;
-  outline: none;
-  color: rgb(255 255 255);
-  text-transform: uppercase;
-  font-weight: 700;
-  font-size: 0.5vw;
-  padding: 0.75rem 1.5rem;
-  background-color: rgb(0, 1, 2);
-  border-radius: 2px;
-  width: 90%;
-  text-shadow: 0px 4px 18px #2c3442;
 }

@@ -90,63 +90,6 @@
   background-color: black;
   height: 30vh;
 }
-
-.card-service {
-  background: rgb(40, 40, 55);
-  background: linear-gradient(
-    344deg,
-    rgba(40, 40, 55, 1) 0%,
-    rgba(16, 16, 18, 1) 50%
-  );
-  box-shadow: 4px 6px 14px #000000bd;
-  border-radius: 3px;
-  color: #f9f9f9;
-  padding: 16px;
-  transition: all 0.3s;
-}
-
-.card-service:hover {
-  transform: scale(1.2);
-  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5);
-}
-
-.card-service2 {
-  background: rgb(40, 40, 55);
-  background: linear-gradient(
-    344deg,
-    rgba(40, 40, 55, 1) 0%,
-    rgba(16, 16, 18, 1) 50%
-  );
-  box-shadow: 4px 6px 14px #000000bd;
-  border-radius: 3px;
-  color: #f9f9f9;
-  padding: 16px;
-  transition: all 0.3s;
-}
-
-.card-service2:hover {
-  transform: scale(1.2);
-  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5);
-}
-
-.card-service3 {
-  background: rgb(40, 40, 55);
-  background: linear-gradient(
-    344deg,
-    rgba(40, 40, 55, 1) 0%,
-    rgba(16, 16, 18, 1) 50%
-  );
-  box-shadow: 4px 6px 14px #000000bd;
-  border-radius: 3px;
-  color: #f9f9f9;
-  padding: 16px;
-  transition: all 0.3s;
-}
-
-.card-service3:hover {
-  transform: scale(1.2);
-  box-shadow: 0 0 20px 10px rgba(255, 255, 255, 0.5);
-}
 .borderb {
   border-bottom: 2px solid white;
 }

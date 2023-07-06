@@ -16,11 +16,9 @@ const Card1 = () => {
             <div className="card-content">
                 <div className="title">Personal Book</div>
                 <div className="price">$39.99</div>
-                <div className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at posuere eros. Interdum et malesuada fames ac ante ipsum primis in faucibus.</div>
+
             </div>
-            <button className="card-button">
-                Get the service
-            </button>
+
         </div>
 
     );
