@@ -11,7 +11,6 @@
   text-align: center;
   position: relative;
   cursor: pointer;
-
   border-radius: 2px;
   background-color: #000000;
   background: linear-gradient(-10deg, #ff8615ad 0%, #000000 100%);
@@ -32,14 +31,14 @@
 .card-content .price {
   color: white;
   font-weight: 800;
-  font-size: 50px;
+  font-size: 1.7vw;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.42);
 }
 
 .card-content .description {
   color: rgba(255, 255, 255, 0.6);
   margin-top: 10px;
-  font-size: 14px;
+  font-size: 0.6vw;
 }
 
 .card-content .title {
@@ -47,7 +46,7 @@
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.64);
   margin-top: 10px;
-  font-size: 25px;
+  font-size: 0.9vw;
   letter-spacing: 1px;
 }
 
@@ -60,7 +59,7 @@
   color: rgb(255 255 255);
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 0.75rem;
+  font-size: 0.5vw;
   padding: 0.75rem 1.5rem;
   background-color: rgb(0, 1, 2);
   border-radius: 2px;

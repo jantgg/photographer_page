@@ -20,7 +20,7 @@ const Form = () => {
 
           <a
             className="btn btn-outline-light btn-floating my-2 col-4 py-1 px-2 bg-icons mx-auto mt-5 px-3"
-            style={{ border: "3px solid white", borderRadius: "2", fontSize: "1.7vw" }}
+            style={{ border: "1px solid white", borderRadius: "2", fontSize: "1.7vw" }}
             href="#!"
             role="button"
           >
@@ -29,7 +29,7 @@ const Form = () => {
 
           <a
             className="btn btn-outline-light btn-floating my-2 col-4 py-1 px-2 bg-icons mx-auto"
-            style={{ border: "3px solid white", borderRadius: "2", fontSize: "1.7vw" }}
+            style={{ border: "1px solid white", borderRadius: "2", fontSize: "1.7vw" }}
             href="#!"
             role="button"
           >
@@ -38,7 +38,7 @@ const Form = () => {
 
           <a
             className="btn btn-outline-light btn-floating my-2 col-4 py-1 px-2 bg-icons mx-auto"
-            style={{ border: "3px solid white", borderRadius: "2", fontSize: "1.7vw" }}
+            style={{ border: "1px solid white", borderRadius: "2", fontSize: "1.7vw" }}
             href="#!"
             role="button"
           >
@@ -47,7 +47,7 @@ const Form = () => {
 
           <a
             className="btn btn-outline-light btn-floating my-2 col-4 py-1 px-2 bg-icons mx-auto"
-            style={{ border: "3px solid white", borderRadius: "2", fontSize: "1.7vw" }}
+            style={{ border: "1px solid white", borderRadius: "2", fontSize: "1.7vw" }}
             href="#!"
             role="button"
           >
@@ -56,7 +56,7 @@ const Form = () => {
 
           <a
             className="btn btn-outline-light btn-floating my-2 col-4 py-1 px-2 bg-icons mx-auto"
-            style={{ border: "3px solid white", borderRadius: "2", fontSize: "1.7vw" }}
+            style={{ border: "1px solid white", borderRadius: "2", fontSize: "1.7vw" }}
             href="#!"
             role="button"
           >
@@ -65,7 +65,7 @@ const Form = () => {
 
           <a
             className="btn btn-outline-light btn-floating my-2 col-4 py-1 px-2 bg-icons mx-auto"
-            style={{ border: "3px solid white", borderRadius: "2", fontSize: "1.7vw" }}
+            style={{ border: "1px solid white", borderRadius: "2", fontSize: "1.7vw" }}
             href="#!"
             role="button"
           >
