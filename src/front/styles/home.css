@@ -238,10 +238,16 @@ body {
 .work-size {
   font-size: 3vw;
 }
+.service-size {
+  font-size: 2.3vw;
+}
 @media (max-width: 1400px) {
   /* Cambia el tamaño de letra cuando la pantalla es más pequeña que 600px */
   .name-size {
     font-size: 4vw; /* Puedes ajustar el tamaño de letra según tus necesidades */
+  }
+  .service-size {
+    font-size: 3.5vw;
   }
   .work-size {
     font-size: 4.5vw;
@@ -260,7 +266,7 @@ body {
     margin-bottom: 5vh;
     margin-top: 1vh;
     right: 0;
-    top: 90%;
+    top: 84%;
   }
   .selected {
     transform: scale(1.2);
@@ -291,6 +297,9 @@ body {
   /* Cambia el tamaño de letra cuando la pantalla es más pequeña que 600px */
   .name-size {
     font-size: 6vw; /* Puedes ajustar el tamaño de letra según tus necesidades */
+  }
+  .service-size {
+    font-size: 5.5vw;
   }
   .work-size {
     font-size: 6.5vw;

@@ -15,21 +15,6 @@
   overflow: hidden;
 }
 
-@media (max-width: 1400px) {
-  .text-size {
-    font-size: 1.7vw;
-    max-height: 30vh;
-    overflow: hidden;
-  }
-}
-@media (max-width: 800px) {
-  .text-size {
-    font-size: 2.3vw;
-    max-height: 25vh;
-    overflow: hidden;
-  }
-}
-
 .image-container {
   position: relative;
 }
@@ -44,6 +29,60 @@
 
   z-index: -1;
   border: 4px solid white;
+}
+
+@media (max-width: 1400px) {
+  .text-size {
+    font-size: 1.7vw;
+    max-height: 37vh;
+    overflow: hidden;
+  }
+  .image-container {
+    position: relative;
+  }
+
+  .image-container::before {
+    content: "";
+    position: absolute;
+    top: 2vh;
+    left: -2vh;
+    width: calc(100% + 2vw);
+    height: calc(100%);
+
+    z-index: -1;
+    border: 2px solid white;
+  }
+}
+@media (max-width: 800px) {
+  .text-size {
+    font-size: 3vw;
+    max-height: 60vh;
+    overflow: hidden;
+  }
+  .image-container {
+    position: relative;
+  }
+
+  .image-container::before {
+    content: "";
+    position: absolute;
+    top: -1vh;
+    left: -1vh;
+    width: calc(100% + 4vw);
+    height: calc(100% + 2vh);
+
+    z-index: -1;
+    border: 2px solid white;
+  }
+  .image-with-gradient {
+    background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.9),
+      rgba(0, 0, 0, 0)
+    );
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 .fondo {
