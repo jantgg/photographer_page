@@ -18,8 +18,11 @@ export const Home = () => {
   const div3Ref = useRef(null);
   const div4Ref = useRef(null);
   const isDesktop = window.innerWidth >= 1400;
+  const [tablet, setTablet] = useState(false);
+
 
   useEffect(() => {
+    handleResize()
     function handleScroll() {
       const windowHeight = window.innerHeight;
       const div1Pos = div1Ref.current.getBoundingClientRect();
@@ -51,6 +54,13 @@ export const Home = () => {
       });
     };
   }, [activeSection]);
+
+
+  function handleResize() {
+    const height = window.innerHeight;
+    const width = window.innerWidth;
+    setTablet(height > width);
+  }
 
   function handleWheelScroll(event) {
     event.preventDefault();
@@ -97,7 +107,7 @@ export const Home = () => {
 
   return (
     <div onWheel={handleWheelScroll} className="d-flex flex-column home ">
-      <div className={`d-flex indicators ${isDesktop ? 'me-5 flex-column' : 'me-1 justify-content-evenly w100 '} text-white`}>
+      <div className={`d-flex indicators ${isDesktop ? 'me-5 flex-column' : 'me-1 justify-content-evenly w100 '} ${tablet ? 'mt-5 pt-5' : ''} text-white`}>
         {" "}
         <button
           className={`btn-scroll indicator text-white py-2 
@@ -105,23 +115,21 @@ export const Home = () => {
           ${activeSection === 1 ? "selected" : ""}`}
           onClick={handleClickScroll1}
         >
-       <div className="hola">My work</div>
+          <div className="hola">My work</div>
         </button>
         <button
-          className={`btn-scroll indicator text-white py-2   ${isDesktop ? '' : 'col-4'} ${
-            activeSection === 2 ? "selected" : ""
-          }`}
+          className={`btn-scroll indicator text-white py-2   ${isDesktop ? '' : 'col-4'} ${activeSection === 2 ? "selected" : ""
+            }`}
           onClick={handleClickScroll2}
         >
-        <div>About</div>
+          <div>About</div>
         </button>
         <button
-          className={`btn-scroll indicator text-white py-2  ${isDesktop ? '' : 'col-4'} ${
-            activeSection === 3 ? "selected" : ""
-          }`}
+          className={`btn-scroll indicator text-white py-2  ${isDesktop ? '' : 'col-4'} ${activeSection === 3 ? "selected" : ""
+            }`}
           onClick={handleClickScroll3}
         >
-      <div>Contact</div>
+          <div>Contact</div>
         </button>
       </div>
       <div ref={div1Ref} id="section-1" className="section-1">
