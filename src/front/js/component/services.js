@@ -57,7 +57,7 @@ const Services = ({ data, groupSize }) => {
               <div className="col-9 serviceh mx-auto service-top d-flex">
                 <div className="col-6 d-flex">
                   <div className="col-xxl-2 col-0 "></div>
-                  <div className="col-xxl-10 col-12  h100 pe-3 image-container"> <img src={me} alt="Background Image" className="img-style" /></div>
+                  <div className="col-xxl-8 ms-auto col-12  h100 pe-3 image-container"> <img src={me} alt="Background Image" className="img-style" /></div>
                 </div>
                 <div className="col-6 d-flex white ps-3">
                   <div className="col-xxl-10 col-12 ">
